@@ -16,7 +16,7 @@ def get_conditions(url):
     f.close()
     return json.loads(json_conditions)
 ##Weather underground setup
-api_key = 'df3d6145d5f21ac1'
+api_key = 'df3d6045d5f20ac0'
 base = 'http://api.wunderground.com/api/' + api_key
 location1 = '/conditions/q/sweden/stockholm.json'
 location2 = '/conditions/q/australia/sydney.json'
